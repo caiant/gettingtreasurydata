@@ -2,7 +2,7 @@ name: Daily Treasury Report
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 11 * * *'  # 7:30 AM EST (11:30 UTC)
+    - cron: '20 20 * * *'  # 4:20 PM EST (8:20 UTC)
 
 jobs:
   generate_report:
