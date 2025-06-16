@@ -39,6 +39,6 @@ def get_market_data():
             print(f"Error fetching {name}: {str(e)}")
             data.append([name, "Error", "Error", "Error"])
 
-        print data
+        print(data)
 
 get_market_data()
