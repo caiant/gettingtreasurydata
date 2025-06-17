@@ -1,7 +1,8 @@
 
 
 from datetime import datetime
-import unicodedata
+import csv
+import requests
 import re
 
 
