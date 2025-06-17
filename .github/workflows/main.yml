@@ -18,7 +18,7 @@ jobs:
       
       - name: Install Python Dependencies
         run: |
-          pip install yfinance pandas yagmail pytz requests bs4 datetime re
+          pip install yfinance pandas yagmail pytz requests bs4 datetime
 
       - name: Download Data
         run: |
